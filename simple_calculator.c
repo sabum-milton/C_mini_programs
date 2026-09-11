@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* Building a  calculator that performs addition, subtraction and multiplication, 
 calculates sin, cos, tan and other hyperbolic functions and a few more math operations.
 */
@@ -9,27 +8,28 @@ calculates sin, cos, tan and other hyperbolic functions and a few more math oper
 #include<math.h>
 #define PI  3.14159265358979323846
 
-=======
+
 // Building a  calculator that performs addition, subtraction and multiplication, calculates sin, cos, tan and other hyperbolic functions and a few more math operations.
 #include <stdio.h>
 #include<conio.h>
 #include<math.h>
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 // prototyping of the functions.
 float add(float, float);
 float sub(float, float);
 float mul(float, float);
+
 float div(float, float);
 int factorial(int);
 
 // main function.
 int main(){
-<<<<<<< HEAD
+
 	float num1, num2,lognum,absnumber;
 	float value;
-=======
+
 	float num1, num2, value,lognum,absnumber;
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 	int choice, number;
 	// shows the menu when ever choice is true.
 	while(1){
@@ -39,7 +39,7 @@ int main(){
 	printf("2. Subtraction\n");
 	printf("3. Multiplication\n");
 	printf("4. Division\n");
-<<<<<<< HEAD
+
 	printf("5. sin() \n");
 	printf("6. cos()\n");
 	printf("7. tan()\n");
@@ -56,7 +56,7 @@ int main(){
 
 	
 	printf("\nWhat operations would you like?\n\n");
-=======
+
 	printf("5. sin() "\n);
 		printf("6. cos()\n");
 		printf("7. tan()\n");
@@ -73,13 +73,13 @@ prirntf("16. round down, up and normal round a number");
 
 	
 	printf("What operations would you like?\n\n");
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+//>>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
 	scanf("%d",&choice);
 
 	
 	if(choice == 1){
 		float result = add(num1, num2);
-<<<<<<< HEAD
+
 		printf("The sum is %.2f\n",  result);
 	}
 	else if(choice == 2){
@@ -93,7 +93,7 @@ prirntf("16. round down, up and normal round a number");
 	else if(choice == 4){
 		float result = div(num1, num2);
 		printf("The divident is %.2f",result);
-=======
+
 		printf("The sum of %.2f and %.2f is %.2f", num1,num2, result);
 	}
 	else if(choice == 2){
@@ -107,7 +107,7 @@ prirntf("16. round down, up and normal round a number");
 	else if(choice == 4){
 		float result = div(num1, num2);
 		printf("The divident of %.2f and %.2f is %.2f",num1,num2,result);
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 	}
 	else if(choice == 5){
 		printf("Enter value to find sin(value)");
@@ -143,11 +143,11 @@ printf("Enter value to find tanh(value)");
 else if(choice == 11){
 printf("Enter a number to get factorial:");
 scanf("%d",&number);
-<<<<<<< HEAD
+
 int result = factorial(number);
-=======
+
 int result = factorial(number)
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 printf("The factorial of %d is %d",number, result);
 }
 else if(choice == 12){
@@ -156,21 +156,21 @@ printf("Enter the base:");
 scanf("%d",&base);
 printf("Enter the exponent or power to raise %d to:",base);
 scanf("%d",&exponent);
-<<<<<<< HEAD
+
 int result = pow(base, exponent);
 printf("The result of %d^%d is %d\n",base,exponent,result);
-=======
+
 printf("The result of %d^%d is %d",base,exponent,pow(base,exponent);
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 }
 else if(choice == 13){
 printf("Enter a value to obtain the natural log of that number(log()):");
 scanf("%f",&lognum);
-<<<<<<< HEAD
+
 printf("The result: log(%f) = %.2f",lognum,log(lognum));
-=======
+
 printf("The result: log(%f) = %.2f",number,log(lognum));
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 }
 else if(choice == 14){
 printf("Enter number to obtain log10 of it:");
@@ -186,11 +186,11 @@ else if(choice == 16){
 printf("Enter number:");
 scanf("%f",&absnumber);
 printf("%f rounded down gives %f\n",absnumber,floor(absnumber));
-<<<<<<< HEAD
+
 printf("%f rounded up gives %f\n",absnumber,ceil(absnumber));
-=======
+
 printf("%f rounded up gives %f\n",absnumber,ciel(absnumber));
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 printf("%f properly round gives %f\n",absnumber,round(absnumber));
 
 }
@@ -240,10 +240,9 @@ float div(float num1, float num2){
 	else
 	return (num1 / num2);
 }
-<<<<<<< HEAD
+
 // factorial function
-=======
->>>>>>> 757d2f3f45c521313fe1ed7dd5c8c18114a576db
+
 int factorial(int number){
 	int i,fac = 1;
 for (i = number; i >= 1; i --){
